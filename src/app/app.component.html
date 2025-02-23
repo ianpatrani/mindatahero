@@ -1,0 +1,11 @@
+<div>
+    <app-heroes></app-heroes>
+    <router-outlet />
+</div>
+<ng-container>
+    @if (isLoading) {
+        <div class="loading-overlay">
+            <div class="loading-spinner"></div>
+        </div>
+    }
+</ng-container>

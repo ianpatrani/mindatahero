@@ -1,0 +1,58 @@
+{
+  "superheroes": [
+    {
+      "id": 1,
+      "name": "Iron Man",
+      "description": "Tony Stark, como Iron Man",
+      "image": "../assets/images/ironman.webp"
+    },
+    {
+      "id": 2,
+      "name": "Capitán América",
+      "description": "Steve Rogers, como Capitán América.",
+      "image": "../assets/images/capitanamerica.webp"
+    },
+    {
+      "id": 3,
+      "name": "Thor",
+      "description": "Thor es el dios nórdico del trueno.",
+      "image": "../assets/images/thor.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Hulk",
+      "description": "Bruce Banner, como Hulk.",
+      "image": "../assets/images/hulk.webp"
+    },
+    {
+      "id": 5,
+      "name": "Black Widow",
+      "description": "Natasha Romanoff, como Black Widow.",
+      "image": "../assets/images/blackwidow.webp"
+    },
+    {
+      "id": 6,
+      "name": "Hawkeye",
+      "description": "Clint Barton, como Hawkeye.",
+      "image": "../assets/images/Hawkeye.webp"
+    },
+    {
+      "id": 7,
+      "name": "Capitana Marvel",
+      "description": "Carol Danvers, como Capitana Marvel.",
+      "image": "../assets/images/capitanamarvel.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Spider-Man",
+      "description": "Peter Parker, como Spider-Man.",
+      "image": "../assets/images/spiderman.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Star-Lord",
+      "description": "Peter Quill, como Star-Lord.",
+      "image": "../assets/images/starlord.jpg"
+    }
+  ]
+}
