@@ -85,7 +85,7 @@ describe('HeroesMindataService', () => {
     service['heroesCache'] = mockHeroes;
     const updatedHero: Hero = {
       id: 1,
-      name: 'SuperMan Updated',
+      name: 'Superman Updated',
       description: 'Updated Man of Steel',
       image: 'superman-updated.jpg',
     };
@@ -104,9 +104,9 @@ describe('HeroesMindataService', () => {
 
   it('should search heroes by term', () => {
     service['heroesCache'] = mockHeroes;
-    service.searchHeroes('Superman').subscribe((heroes) => {
+    service.searchHeroes('Superman Updated').subscribe((heroes) => {
       if (heroes.length > 0) {
-        expect(heroes[0].name).toBe('Superman');
+        expect(heroes[0].name).toBe('Superman Updated');
       }
     });
   });
