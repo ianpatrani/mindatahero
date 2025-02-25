@@ -51,9 +51,10 @@ export class HeroFormComponent implements OnInit {
           },
           error: () => {
             this.loadingService.hide();
-          }
+          },
         });
       }
+      this.loadingService.hide();
     }
   }
 

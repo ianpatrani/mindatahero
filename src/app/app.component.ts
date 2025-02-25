@@ -12,9 +12,10 @@ import { LoadingService } from './services/loading.service';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
-  title = 'heroes-mindata';
   isLoading = false;
   constructor(private loadingService: LoadingService) {
-    this.isLoading = this.loadingService.getLoading();
+    this.loadingService.isLoading.subscribe((loading) => {
+      this.isLoading = loading;
+    });
   }
 }

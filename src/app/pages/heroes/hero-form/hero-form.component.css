@@ -1,0 +1,8 @@
+input {
+    width: 100%;
+}
+
+mat-dialog-content>form {
+    display: flex;
+    flex-direction: column;
+}
